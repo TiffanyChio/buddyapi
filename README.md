@@ -8,7 +8,7 @@ Buddy is a personal safety iOS app with three main features:
 This repository contains the code for the back-end API built in Flask.
 
 ## Prerequisites
-You will need access to the Twilio API. Sign up [here](https://www.twilio.com/sms). 
+Buddy sends out text messages using Twilio's programmable SMS API; sign up [here](https://www.twilio.com/sms). The Twilio programmable SMS API documentation can be found [here](https://www.twilio.com/docs/sms).
 
 ## Installation
 Clone this repository and cd into the repository. Create a virtual environment and install all project dependencies with:
@@ -22,4 +22,3 @@ Deploy this project to the platform of your choice. Be sure to set up the deploy
 2. your Twilio Auth Token saved as ```TWILIOTOKEN```
 3. your Twilio account's SMS number saved as ```TWILIONUM```
 4. a key to encrypt user passwords stored in the database saved under ```LOGINKEY```
-
