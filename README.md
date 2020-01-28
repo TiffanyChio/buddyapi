@@ -5,7 +5,7 @@ Buddy is a personal safety iOS app with three main features:
 2. At the press of a button, the trip webpage will be updated with a danger status. Additionally emergency contacts saved to the app will get a text alert, notifying them that the user does not feel safe. 
 3. The Check-In feature sends a text alert to emergency contacts if the user has not returned to a saved location (home, work, or school) within a designated time period. 
 
-This repository contains the code for the back-end API built in Flask.
+This repository contains the code for the back-end API built in Flask. The [front-end mobile component](https://github.com/TiffanyChio/buddyapp) and [web component](https://github.com/TiffanyChio/buddyweb) will need to be installed and deployed for the App to work as intended.
 
 ## Prerequisites
 Buddy sends out text messages using Twilio's programmable SMS API; sign up [here](https://www.twilio.com/sms). The Twilio programmable SMS API documentation can be found [here](https://www.twilio.com/docs/sms).
